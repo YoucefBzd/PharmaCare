@@ -17,8 +17,10 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/logo_id"
         android:layout_centerHorizontal="true"
-        android:text="Medicine Time"
-        android:textSize="30dp"
-        android:textColor="@color/color_light_grey"/>
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/colorPrimaryDark"/>
 
 </RelativeLayout>

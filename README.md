@@ -1,33 +1,28 @@
 # PharmaCare 🌿
 
-**PharmaCare** est une application Android moderne conçue pour aider les utilisateurs à gérer leurs prises de médicaments quotidiennes. Avec un design apaisant et une interface intuitive, elle est l'outil idéal pour ne plus jamais oublier un traitement.
+**PharmaCare** is a modern Android application for medication management, updated to work with the latest development tools (Android 14+).
 
-## ✨ Fonctionnalités
+## ✨ Features
+- Intelligent medication reminders.
+- Relaxing "Sage Green" medical design.
+- History tracking and monthly reports.
+- Fully compatible with modern Android devices.
 
-- **Rappels personnalisés** : Configurez des alarmes précises pour chaque médicament.
-- **Calendrier interactif** : Visualisez vos prises passées et futures en un coup d'œil.
-- **Historique complet** : Suivi détaillé des médicaments pris ou ignorés.
-- **Design Relaxant** : Interface basée sur une palette "Sage Green" pour réduire le stress lié au traitement.
-- **Rapports mensuels** : Exportez ou consultez vos statistiques d'adhérence au traitement.
+## 🚀 Installation & Setup
 
-## 🛠️ Stack Technique
+### 1. Prerequisites
+- **Android Studio** (Koala or newer recommended).
+- **JDK 17**: Required for compilation.
 
-- **Langage** : Java 17
-- **Architecture** : Android Native
-- **UI Toolkit** : Material Components (Material 3 inspired)
-- **Injection de vues** : ButterKnife
-- **Minimum SDK** : 16 (Compatible avec 99% des appareils)
-- **Target SDK** : 34 (Android 14)
+### 2. Android Studio Configuration
+To ensure the project builds correctly, you MUST configure Java 17 in Android Studio:
+1. Go to **File > Settings > Build, Execution, Deployment > Build Tools > Gradle**.
+2. Under **Gradle JDK**, download and select **Java 17** (jbr-17).
+3. Click **OK** and run a Gradle Sync (elephant icon).
 
-## 🚀 Installation
-
-1. Clonez le dépôt :
-   ```bash
-   git clone https://github.com/VOTRE_NOM/PharmaCare.git
-   ```
-2. Ouvrez le projet dans **Android Studio**.
-3. Assurez-vous d'utiliser **JDK 17** dans les paramètres Gradle.
-4. Compilez et lancez !
+### 3. Running the App
+1. Connect a physical device or start an emulator.
+2. Click the **Run** button (green triangle).
 
 ---
-*Développé avec ❤️ pour une meilleure santé.*
+*This project is a modernized version of a classic application, optimized for security, performance, and a better user experience.*
